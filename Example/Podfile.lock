@@ -1,0 +1,35 @@
+PODS:
+  - Alamofire (5.6.1)
+  - NetworkLayer (1.0.0):
+    - Alamofire (~> 5.6.1)
+    - NVActivityIndicatorView (~> 4.7.0)
+    - SwiftMessages (~> 9.0.6)
+  - NVActivityIndicatorView (4.7.0):
+    - NVActivityIndicatorView/Presenter (= 4.7.0)
+  - NVActivityIndicatorView/Presenter (4.7.0)
+  - SwiftMessages (9.0.6):
+    - SwiftMessages/App (= 9.0.6)
+  - SwiftMessages/App (9.0.6)
+
+DEPENDENCIES:
+  - NetworkLayer (from `../NetworkLayer`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - NVActivityIndicatorView
+    - SwiftMessages
+
+EXTERNAL SOURCES:
+  NetworkLayer:
+    :path: "../NetworkLayer"
+
+SPEC CHECKSUMS:
+  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
+  NetworkLayer: 163c23beb7864a896bcb700c9e19bbc21a9b08b9
+  NVActivityIndicatorView: b19ddab2576f805cbe0fb2306cba3476e09a1dea
+  SwiftMessages: f0c7ef4705a570ad6c5e208b611f4333e660ed92
+
+PODFILE CHECKSUM: 2830319484840fd019aca8b0c7122b5460317cf8
+
+COCOAPODS: 1.11.3
