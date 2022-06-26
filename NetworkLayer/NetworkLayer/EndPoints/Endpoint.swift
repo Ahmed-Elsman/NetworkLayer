@@ -2,7 +2,7 @@
 //  Endpoint.swift
 //  Elsman
 //
-//  Created by Ahmed Meguid  @Raye7 on 7/7/19.
+//  Created by Ahmed Elsman.
 //  Copyright © 2019 Elsman. All rights reserved.
 //
 
