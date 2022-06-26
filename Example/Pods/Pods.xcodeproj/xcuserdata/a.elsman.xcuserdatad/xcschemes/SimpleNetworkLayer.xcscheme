@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "09A6C88213AD89B627ADDF4B22439BD4"
-               BuildableName = "NetworkLayer"
-               BlueprintName = "NetworkLayer"
+               BlueprintIdentifier = "067E96DAB888680C58ECDED49296FC92"
+               BuildableName = "SimpleNetworkLayer.framework"
+               BlueprintName = "SimpleNetworkLayer"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

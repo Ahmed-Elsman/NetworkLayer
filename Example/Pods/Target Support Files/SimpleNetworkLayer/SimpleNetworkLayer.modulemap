@@ -1,0 +1,6 @@
+framework module SimpleNetworkLayer {
+  umbrella header "SimpleNetworkLayer-umbrella.h"
+
+  export *
+  module * { export * }
+}
