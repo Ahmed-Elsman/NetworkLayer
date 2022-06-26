@@ -3,7 +3,7 @@ PODS:
   - NVActivityIndicatorView (4.7.0):
     - NVActivityIndicatorView/Presenter (= 4.7.0)
   - NVActivityIndicatorView/Presenter (4.7.0)
-  - SimpleNetworkLayer (1.0.0):
+  - SimpleNetworkLayer (1.0.1):
     - Alamofire (~> 5.6.1)
     - NVActivityIndicatorView (~> 4.7.0)
     - SwiftMessages (~> 9.0.6)
@@ -12,7 +12,7 @@ PODS:
   - SwiftMessages/App (9.0.6)
 
 DEPENDENCIES:
-  - SimpleNetworkLayer (= 1.0.0)
+  - SimpleNetworkLayer (~> 1.0.1)
 
 SPEC REPOS:
   trunk:
@@ -24,9 +24,9 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
   NVActivityIndicatorView: b19ddab2576f805cbe0fb2306cba3476e09a1dea
-  SimpleNetworkLayer: f653e8cff7e5a6c71ff1348558e4f9b019ebfa76
+  SimpleNetworkLayer: f762babd1f73dc4752df703087fbafec3addde96
   SwiftMessages: f0c7ef4705a570ad6c5e208b611f4333e660ed92
 
-PODFILE CHECKSUM: b3b60db716fbb376ba19cbb21d3b46a2493ef4a7
+PODFILE CHECKSUM: f3ffffac2c14e64bad6707cc6221466a09ac0500
 
 COCOAPODS: 1.11.3

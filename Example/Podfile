@@ -6,5 +6,5 @@ target 'Example' do
   use_frameworks!
 
   # Pods for Example
-pod 'SimpleNetworkLayer', '1.0.0'
+pod 'SimpleNetworkLayer', '~>1.0.1'
 end
