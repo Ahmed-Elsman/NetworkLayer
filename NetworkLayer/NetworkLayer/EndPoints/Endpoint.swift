@@ -11,6 +11,7 @@ import Alamofire
 
 public protocol Endpoint {
     var url: String {get set}
+    var type: EndpointType {get set}
     var baseUrl: EndpointBaseUrl {get set}
     var method: EndpointHTTPMethod {get set}
     var parameters: [String: Any] {get set}
@@ -48,6 +49,21 @@ public enum EndpointHTTPMethod: String {
     case put
     case delete
     case head
+}
+
+public enum EndpointType {
+    case upload
+    case normal
+
+    var type: Bool {
+        switch self {
+        case .upload:
+            return true
+        case .normal:
+            return false
+        }
+    }
+
 }
 
 public enum EndpointBaseUrl {

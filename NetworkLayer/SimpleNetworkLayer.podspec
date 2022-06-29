@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
     spec.name         = "SimpleNetworkLayer"
-    spec.version      = "1.0.5"
+    spec.version      = "1.0.6"
     spec.summary      = "This is fast NetworkLayer setup."
     spec.description  = "This is fast NetworkLayer setup you can use to set your network layer easly."
 
