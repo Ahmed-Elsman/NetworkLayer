@@ -68,43 +68,4 @@ public extension RawRepresentable where RawValue == String, Self: NotificationNa
     var name: Notification.Name {
         return Notification.Name(rawValue)
     }
-}
-/*
-
- // implementation By reachabilty pod
- 
-class MainAppReachability {
-    
-    static let shared = MainAppReachability()
-    private let reachabilityManager = try! Reachability()
-    
-    var isConnected: Bool {
-        return reachabilityManager.connection != .unavailable
-    }
-    
-    func startNetworkReachabilityObserver() {
-        DispatchQueue.main.async { [weak self] in
-            self?.reachabilityManager.whenReachable = { reachability in
-                if reachability.connection == .wifi {
-                    print("Reachable via WiFi")
-                } else {
-                    print("Reachable via Cellular")
-                }
-            }
-            self?.reachabilityManager.whenUnreachable = { _ in
-                print("Not reachable")
-            }
-
-            do {
-                try self?.reachabilityManager.startNotifier()
-            } catch {
-                print("Unable to start notifier")
-            }
-        }
-    }
-    
-    deinit {
-        reachabilityManager.stopNotifier()
-    }
-}
-*/
+}   
