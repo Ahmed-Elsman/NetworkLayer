@@ -17,7 +17,7 @@
 		274C46962866F2F000ACD4D7 /* BaseWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274C467E2866F2EF00ACD4D7 /* BaseWorker.swift */; };
 		274C469D2866F2F000ACD4D7 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274C46882866F2F000ACD4D7 /* Endpoint.swift */; };
 		274C46A02866F2F000ACD4D7 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274C468C2866F2F000ACD4D7 /* AppConfig.swift */; };
-		920DF230716E1C6A17F888C4 /* Pods_NetworkLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79FF001C43D92528B3FDF067 /* Pods_NetworkLayer.framework */; };
+		920DF230716E1C6A17F888C4 /* Pods_NetworkLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79FF001C43D92528B3FDF067 /* Pods_NetworkLayer.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */

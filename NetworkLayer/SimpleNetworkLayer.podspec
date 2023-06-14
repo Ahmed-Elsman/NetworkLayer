@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
     spec.author             = { "Elsman" => "ahmedelsman0@gmail.com" }
     spec.platform     = :ios, "11.0"
     spec.source       = { :git => "https://github.com/Ahmed-Elsman/NetworkLayer.git", :tag => spec.version.to_s }
-    spec.source_files  = "NetworkLayer/NetworkLayer/**/*.{swift}"
+    spec.source_files  = "NetworkLayer/NetworkLayer/**/*.{h,m,swift}"
     spec.exclude_files = "Classes/Exclude"
     spec.dependency "Alamofire", "~>5.6.1"
     spec.dependency "NVActivityIndicatorView", "~>4.7.0"
